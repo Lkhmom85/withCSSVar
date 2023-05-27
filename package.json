@@ -1,0 +1,14 @@
+{
+  "name": "withCSSVar",
+  "version": "1.0.0",
+  "description": "a small JS helper for CSS Variables in JavaScript",
+  "main": "withCSSVar.js",
+  "author": "Cristian Carlesso <@kentaromiura>",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^22.0.0"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<style>
+:root {
+    --background-color:#ccc;
+}
+section {
+    background-color: var(--background-color);
+}
+section#two {
+    --background-color: #faa;
+}
+</style>
+<html>
+    <body>
+        <section id="one">First section</section>
+        <section id="two">Second section</section>
+    </body>
+    <script type="module">
+        import withCSSVar from './withCSSVar';
+        withCSSVar().backgroundColor = 'blue';
+    </script>
+</html>
