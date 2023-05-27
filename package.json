@@ -1,5 +1,5 @@
 {
-  "name": "withCSSVar",
+  "name": "with-css-var",
   "version": "1.0.0",
   "description": "a small JS helper for CSS Variables in JavaScript",
   "main": "withCSSVar.js",
