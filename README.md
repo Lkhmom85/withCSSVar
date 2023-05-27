@@ -5,10 +5,13 @@ withCSSVar
 
 How to use:
 ---
+install via npm or yarn
+`npm i with-css-var` or `yarn i with-css-var`
+
 Just import and use it:
 
 ```
-import withCSSVar from './withCSSVar';
+import withCSSVar from 'with-css-var';
 
 //default invocation will look for root css variables
 const vars = withCSSVar()

@@ -1,6 +1,6 @@
 {
   "name": "with-css-var",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a small JS helper for CSS Variables in JavaScript",
   "main": "withCSSVar.js",
   "author": "Cristian Carlesso <@kentaromiura>",
@@ -10,5 +10,6 @@
   },
   "scripts": {
     "test": "node test"
-  }
+  },
+  "type": "module"
 }
